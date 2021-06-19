@@ -61,7 +61,7 @@ for operation_pair in [['*', '/'], ['+', '-']]: # do for ('*' and '/'), then for
     # get the index, within the operations list, of the first operator in the current operator pair
     operation_index = next_index(operation_pair)
     
-    # while there are still operators in the operators list from the operation pair
+    # while there are still operators in the operations list from the operation pair
     while operation_index >= 0: 
         operator      = operations[operation_index]
         left_operand  = numbers[operation_index]
