@@ -1,7 +1,7 @@
 #
 # Since the operators that are defined take an operand on each side,
 # we can count on the fact that the length of the numbers array will be
-# equal to th length of the operators array + 1. Also, the left-hand operand
+# equal to the length of the operators array + 1. Also, the left-hand operand
 # will share an index with the operator, and the right-hand operand will be
 # one greater than that: e.g. if we pass the string "2+4", we will have an
 # operator array ['+'] and a number array ['2', '4'].
